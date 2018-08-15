@@ -1,0 +1,18 @@
+1、安装python3.6，配置相关环境变量。
+2、安装以下依赖包：
+    pymssql，sqlalchemy
+    或者先下载whl文件，再通过pip安装whl文件
+3、配置文件setting.py
+   --城管业务库连接配置
+   sjzq_ywk_conn_str
+   --水务数据库IP
+   sw_host = "10.225.16.70"
+   --水务数据库用户名
+   sw_user= "fsgx"
+   --水务数据库密码
+   sw_password= "fsgx!Q@W#E"
+   --水务数据库服务名
+   sw_database= "MIDC"
+   sw_charset= "utf8"
+4、Linux服务器:配置cron任务计划启动start.sh
+5、windows服务器:配置任务计划启动start.bat
